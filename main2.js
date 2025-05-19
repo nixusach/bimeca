@@ -122,35 +122,35 @@ document.addEventListener('DOMContentLoaded', function() {
   const projects = [
   {
     image: '20.jpg',
-    category: 'Industry',
-    title: 'Industrial Construction',
-    description: 'We built a state-of-the-art manufacturing facility with optimized production zones and advanced safety systems, completing the project on schedule.'
+    category: 'Industrie',
+    title: 'Construction Industrielle',
+    description: 'Réalisation d\'une usine high-tech avec zones de production optimisées et systèmes de sécurité avancés, livrée dans les délais.'
   },
   {
     image: '21.jpg',
-    category: 'Energy',
-    title: 'Solar Power Installation',
-    description: 'Installed a large solar array that now powers hundreds of homes, featuring smart grid technology and efficient energy storage solutions.'
+    category: 'Énergie',
+    title: 'Centrale Solaire',
+    description: 'Installation d\'un parc photovoltaïque alimentant des centaines de foyers, intégrant smart grid et solutions de stockage performantes.'
   },
   {
     image: '22.jpg',
-    category: 'Manufacturing',
-    title: 'Production Line',
-    description: 'Modernized the assembly process with automated systems that increased output by 40% while improving product quality and worker safety.'
+    category: 'Manufacture',
+    title: 'Ligne de Production',
+    description: 'Modernisation du process avec systèmes automatisés augmentant la productivité de 40% tout en améliorant qualité et sécurité.'
   },
   {
     image: '23.jpg',
-    category: 'Logistics',
-    title: 'Warehouse Automation',
-    description: 'Implemented robotic systems and smart inventory management that reduced processing time by 65% while maximizing storage capacity.'
+    category: 'Logistique',
+    title: 'Entrepôt Automatisé',
+    description: 'Déploiement de robots et gestion intelligente des stocks réduisant les délais de 65% avec optimisation de l\'espace.'
   },
   {
     image: '24.jpg',
-    category: 'Construction',
-    title: 'Commercial Building',
-    description: 'Designed and constructed an innovative office complex with sustainable features and smart technologies, achieving LEED certification.'
+    category: 'BTP',
+    title: 'Bâtiment Tertiaire',
+    description: 'Conception et construction d\'un complexe bureau innovant avec technologies durables, certifié LEED.'
   }
-];
+]
   
   // Generate project cards
   function generateProjects() {
